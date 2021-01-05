@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500&family=Open+Sans:wght@300&display=swap');
+/*font-family: 'Archivo', sans-serif;
+font-family: 'Open Sans', sans-serif;*/
+h1{
+    font-family: 'Archivo', sans-serif;
+    color: #00fdcb;
+    text-align: center;
+    font-size: 3em;
+}
+body{
+    background-color: #864aff;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+button{
+	background-color:white;
+	border-radius:28px;
+	border:1px solid #00fdcb;
+	display:inline-block;
+	cursor:pointer;
+	color:#212529;
+	font-family: 'Open Sans', sans-serif;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+    margin-bottom: 5px;
+    margin-top: 5px;}
+button:hover{
+    background-color:#00fdcb;}
+
+input[type=text]{
+    padding: 6px 10px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #fbfffe;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <title>Mortage Calculator</title>
+        <script src="script.js"></script>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <h1>Mortage Calculator</h1>
+        <form>
+            <p id="alert"></p>
+            <label for="apr">APR (Annual Percentage Rate)</label>
+            <input type="text" id="apr" name="apr" onchange="fieldValidator()">
+            <p id="aprAlert"></p><br>
+            <br>
+            <label for="term">Loan term (in years)</label>
+            <input type="text" id="term" name="term" onchange="fieldValidator()">
+            <p id="termAlert"></p><br>
+            <br>
+            <label for="amount">Loan amount (US Dollars)</label>
+            <input type="text" id="amount" name="amount" onchange="formValidator()"><br>
+            <br>
+            <label for="payment">Monthly payment:</label>
+            <input type="text" id="payment" name="payment" value="" readonly><br>
+            <br>
+            <button type="reset" id="clear">Clear Form</button>
+            <button type="button" id="calculate" onclick="formValidator()">
+                Calculate Payment Button</button> 
+
+        </form>
+    </body>
+</html>
